@@ -59,53 +59,6 @@ public class Main {
 			break;
 		}
 		
-		
-		
-//		System.out.print("Nhap n: ");
-//		int m = input.nextInt();
-//		System.out.print("Nhap ho ten cua ban: ");
-//		String str = input.next();
-		
-		//B1
-//		B1.ptBacHai(1, 2, -1);
-		
-		//B2
-//		System.out.print("Nhap n: ");
-//		int gt = input.nextInt();
-//		System.out.printf("Giai thua cua %d: %d", gt, B2.giaiThua(gt));
-		
-		//B3
-//		
-//		int n = input.nextInt();
-//		
-		
-		//B4
-//		
-//		int a = input.nextInt();
-//		System.out.print("Nhap b: ");
-//		int b = input.nextInt();
-//		System.out.printf("Uoc chung lon nhat cua %d va %d: %d",a,b,B4.UCLN(a, b));
-//		System.out.printf("\nBoi chung nho nhat cua %d va %d: %d",a,b,B4.BCNN(a, b));
-		
-		//B5
-//		
-//		int n = input.nextInt();
-//		
-		
-		//B6
-//		System.out.print("Nhap n: ");
-//		int n = input.nextInt();
-//		
-		
-		//B7
-//		
-		
-		//B8
-//		System.out.print("Nhap n: ");
-//		int n = input.nextInt();
-//		
-		//B9
-		
 	}
 	static void Menu () {
 		System.out.printf("%-6s%s\n", "[1]", "Phuong trinh bac hai");
