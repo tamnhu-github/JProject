@@ -30,7 +30,33 @@ public class Main {
 			b = input.nextInt();
 			System.out.printf("Uoc chung lon nhat cua %d va %d: %d",a,b,B4.UCLN(a, b));
 			System.out.printf("\nBoi chung nho nhat cua %d va %d: %d",a,b,B4.BCNN(a, b));
-			
+			break;
+		case 5:
+			System.out.print("Nhap n: ");
+			n = input.nextInt();
+			System.out.printf("Cac so nguyen to nho hon %d: ",n);
+			B5.lietkeSNT(n);
+			break;
+		case 6:
+			System.out.print("Nhap n: ");
+			n = input.nextInt();
+			System.out.printf("\n%d so nguyen to dau tien: ", n);
+			B6.SNT2(n);
+			break;
+		case 7:
+			System.out.print("Cac so nguyen to co 5 chu so: ");
+			B7.SNT3();
+			break;
+		case 8:
+			System.out.print("Nhap n: ");
+			n = input.nextInt();
+			System.out.printf("\nTong cac chu so cua %d: %d",n, B8.tongChuSo(n));
+			break;
+		case 9:
+			B9.thuannghich();
+			break;
+		default:
+			break;
 		}
 		
 		
@@ -62,25 +88,21 @@ public class Main {
 //		System.out.printf("\nBoi chung nho nhat cua %d va %d: %d",a,b,B4.BCNN(a, b));
 		
 		//B5
-//		System.out.print("Nhap n: ");
+//		
 //		int n = input.nextInt();
-//		System.out.printf("Cac so nguyen to nho hon %d: ",n);
-//		B5.lietkeSNT(n);
+//		
 		
 		//B6
 //		System.out.print("Nhap n: ");
 //		int n = input.nextInt();
-//		System.out.printf("\n%d so nguyen to dau tien: ", n);
-//		B6.SNT2(n);
+//		
 		
 		//B7
-//		System.out.print("Cac so nguyen to co 5 chu so: ");
-//		B7.SNT3();
+//		
 		
 		//B8
 //		System.out.print("Nhap n: ");
 //		int n = input.nextInt();
-//		System.out.printf("\nTong cac chu so cua %d: %d",n, B8.tongChuSo(n));
 //		
 		//B9
 		
@@ -94,7 +116,7 @@ public class Main {
 		System.out.printf("%-6s%s\n", "[6]", "Liet ke n so nguyen to dau tien");
 		System.out.printf("%-6s%s\n", "[7]", "Liet ke cac so nguyen to co 5 chu so");
 		System.out.printf("%-6s%s\n", "[8]", "Tong cac chu so cua mot so nguyen");
-		System.out.printf("%-6s%s\n", "[9]", "So thuan nghich");
+		System.out.printf("%-6s%s\n", "[9]", "So thuan nghich co 6 chu so");
 		System.out.printf("%-6s%s\n", "[10]", "Liet ke cac so Fibonacci nho hon n la so nguyen to");
 		
 	}
