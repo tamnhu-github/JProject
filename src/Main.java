@@ -15,14 +15,17 @@ public class Main {
 			System.out.print("Nhap c: ");
 			c = input.nextInt();
 			B1.ptBacHai(a, b, c);
+			break;
 		case 2: 
 			System.out.print("Nhap n: ");
 			int gt = input.nextInt();
 			System.out.printf("Giai thua cua %d: %d", gt, B2.giaiThua(gt));
+			break;
 		case 3:
 			System.out.print("Nhap n: ");
 			n = input.nextInt();
 			System.out.printf("So Fibonacci thu %d: %d",n,B3.Fibonacci(n));
+			break;
 		case 4:
 			System.out.print("Nhap a: ");
 			a = input.nextInt();
