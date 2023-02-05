@@ -60,6 +60,11 @@ public class Main {
 			case 9:
 				B9.thuannghich();
 				break;
+			case 10:
+				System.out.print("Nhap n: ");
+				n = input.nextInt();
+				B10.lietKe(n);
+				break;
 			default:
 				flag = false;
 				break;
