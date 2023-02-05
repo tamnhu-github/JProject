@@ -21,7 +21,7 @@ public class Main {
 			case 2: 
 				System.out.print("Nhap n: ");
 				int gt = input.nextInt();
-				System.out.printf("Giai thua cua %d: %d", gt, B2.giaiThua(gt));
+				System.out.printf("Giai thua cua %d: %d\n", gt, B2.giaiThua(gt));
 				break;
 			case 3:
 				System.out.print("Nhap n: ");
