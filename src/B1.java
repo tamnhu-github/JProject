@@ -18,7 +18,7 @@ public class B1 {
 				System.out.println("Nghiem thu hai: x2 = " + (double) Math.round(x2*100)/100);
 			}
 			else if (delta == 0) 
-				System.out.println("Phuong tirnh co nghiem kep: x1 = x2 = " + -b/2*a);
+				System.out.println("Phuong tirnh co nghiem kep: x1 = x2 = " + (-b/2*a));
 			else System.out.println("Phuong trinh vo nghiem");
 		}
 	}
