@@ -1,6 +1,6 @@
 import java.lang.Math;
 public class B5 {
-	static boolean ktSNT(int n) {
+	static boolean ktSNT(float n) {
 		if (n < 2) return false;
 		for (int i = 2; i <= Math.sqrt(n); i++) {
 			if (n % i == 0) return false;
