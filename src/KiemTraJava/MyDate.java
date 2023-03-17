@@ -67,19 +67,19 @@ public class MyDate {
 	public static int getDayOfWeek(int year,int month,int day) {
 		String monthStr,dayStr;
 		if(month<10) {
-			 monthStr = "0"+String.valueOf(month);
+			 monthStr = '0' + String.valueOf(month);
 		}
 		else {
 			 monthStr = String.valueOf(month);
 		}
 		if(day<10) {
-			 dayStr = "0"+String.valueOf(day);
+			 dayStr = '0' + String.valueOf(day);
 		}
 		else {
 			 dayStr = String.valueOf(day);
 		}
 		String str = "";
-		str=str+String.valueOf(year)+"-"+monthStr+"-"+dayStr;
+		str = str + String.valueOf(year) + '-' + monthStr + '-' + dayStr;
 		LocalDate date = LocalDate.parse(str);
 		int i = DayOfWeek.from(date)
                 .get(ChronoField.DAY_OF_WEEK);
