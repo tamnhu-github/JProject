@@ -19,5 +19,5 @@ public class Circle implements IShape, IMovable{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
+//trim: cat ky tu trang hai dau
 }

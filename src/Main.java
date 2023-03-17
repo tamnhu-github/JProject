@@ -1,10 +1,45 @@
 import OOP.Circle;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.*;
 import OOP.Date;
+import StringTutorial.Person;
 public class Main {
 	public static void main(String[] args) {
-		Date();
+//		String s1 = "17T1021001|Nguyen Van|Tuan|01/01/1995|TT Hue|1|Da Nang";
+//		Person p = Person.parse(s1);
+//		System.out.print(p.toString());
+		 //tao 1 doi tuong file
+		//boc 1 doan code co kha nang sinh ra loi 
+		try {
+			File file = new File("D:\\sinhvien.txt");
+			Scanner scanner = new Scanner(file);
+			ArrayList<String> ls = new ArrayList<>();
+			while(scanner.hasNext()) {
+				ls.add(scanner.nextLine());
+//				String s = scanner.nextLine();
+//				System.out.println(s);
+			}
+			ArrayList<Person> rs = Person.parse(ls);
+			for (Person person : rs) {
+				System.out.println(person.toString());
+			}
+//			List<Person> rs = Person.parse(ls);
+			scanner.close();
+//			System.out.println("Doc file thanh cong!");
+		} 
+		catch (FileNotFoundException e) {
+			System.out.println("Loi khong tim thay file!");
+			e.printStackTrace();
+		} 
+		catch(Exception e) {
+			System.out.println("Loi khong xac dinh!");
+			e.printStackTrace();
+		}
+		
 	}
 	static void Circle() {
+		
 		Circle c = new Circle();
 		Circle c1 = new Circle(2.3);
 //		System.out.print(c.getArea() + " " + c1.getArea());
